@@ -24,7 +24,7 @@ feature:
   icon: tint
   icon_pack: fas
   name: Research
-- description: Safe working environments off the beaten path
+- description: Safe Working Environments for Science Off The Beaten Path
   icon: clipboard-check
   icon_pack: fas
   name: Remote logistics
