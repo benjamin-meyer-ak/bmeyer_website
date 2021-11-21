@@ -22,29 +22,37 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Water Quality Coordinator
+    company: Kenai Watershed Forum
+    company_url: 'https://kenaiwatershed.org/'
+    company_logo: kwf_logo
+    location: Soldotna, Alaska
+    date_start: '2020-12-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Oversee ongoing programs in water quality monitoring, fish habitat characterization, and regional conservation planning
+        * Develop reproducible workflows for data management, analysis, and visualization
+        * Research development and grant writing
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Graduate Student and Research Manager
+    company: University of Alaska Fairbanks
+    company_url: 'https://www.uaf.edu/uaf/'
+    company_logo: uaf_logo
+    location: Fairbanks, Alaska
+    date_start: '2014-05-01'
+    date_end: '2020-09-01'
+    description: |2-
 
+        * Original research on potential effects of climate change on juvenile salmon habitat in the Kenai River, Alaska. 
+        * Teaching assistant for Introduction to Biology (111) and Animal Physiology (310). 
+        * Co-authored three published journal manuscripts, lead author on one manuscript in review.
+        
+        
+
+        
+       
 design:
   columns: '2'
 ---
