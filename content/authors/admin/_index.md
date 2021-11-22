@@ -14,7 +14,7 @@ organizations:
   url: https://www.kenaiwatershed.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include salmon habitat, water quality, and landscape ecology.
+bio: 
 
 # Interests to show in About widget
 interests:
@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-Benjamin Meyer is an environmental scientist with Kenai Watershed Forum in Soldotna, Alaska. His research interests include juvenile salmon habitat, water quality, climate change, and environmental history. 
+I'm an environmental scientist with Kenai Watershed Forum in Soldotna, Alaska. My research interests include juvenile salmon habitat, water quality, climate change, and environmental history. 
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
