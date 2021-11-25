@@ -4,7 +4,6 @@
 title: "The Salmon Lifecycle"
 subtitle: "Kenai River Guide Academy 2020"
 summary: "Summary here..."
-authors: []
 tags: [Kenai River Guide Academy, Salmon Lifecycle]
 categories: []
 date: 2021-03-25T13:00:25-09:00
@@ -32,4 +31,7 @@ image:
 projects: []
 ---
 
-text text
+[![Text](static/uploads/images/KRGA presentation.jpg)](https://www.youtube.com/watch?v=ChAtaJ7YnTA "Text")
+
+[![Blinking LEDs](static/uploads/images/KRGA presentation.jpg)](http://www.youtube.com/watch?v=XAMVzS13HY0 "Blinking LEDs")
+
