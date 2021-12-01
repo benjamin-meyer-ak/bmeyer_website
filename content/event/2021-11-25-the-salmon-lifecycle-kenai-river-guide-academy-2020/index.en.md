@@ -2,24 +2,23 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "The Salmon Lifecycle"
-subtitle: "Kenai River Guide Academy 2020"
+subtitle: "Kenai River Guide Academy 2021"
 summary: "Summary here..."
 tags: [Kenai River Guide Academy, Salmon Lifecycle]
 categories: []
 date: 2021-03-25T13:00:25-09:00
 lastmod: 2021-11-25T12:28:25-09:00
 featured: false
-draft: false
 
-summary: text text
+summary: Presentation at the Kenai River Guide Academy in Spring 2021
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "https://youtu.be/ChAtaJ7YnTA"
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 
 
@@ -31,7 +30,14 @@ image:
 projects: []
 ---
 
-[![Text](static/uploads/images/KRGA presentation.jpg)](https://www.youtube.com/watch?v=ChAtaJ7YnTA "Text")
+In Spring 2021 I was invited by Dr. David Wartinbee to teach a short unit on the salmon lifecyle at the [Kenai River Guide Academy](http://www.krga.org/). The Guide Academy is a 5-day course that is required for all fishing guides that plan to guide clients on the Kenai River.
 
-[![Blinking LEDs](static/uploads/images/KRGA presentation.jpg)](http://www.youtube.com/watch?v=XAMVzS13HY0 "Blinking LEDs")
+[![The Salmon Lifecycle](http://img.youtube.com/vi/ChAtaJ7YnTA/0.jpg)](http://www.youtube.com/watch?v=ChAtaJ7YnTA)
+
+(Click on above image or https://youtu.be/ChAtaJ7YnTA)
+
+Thanks again to Kosette Isakson and Annie Grenier from the Alaska Office of Boating Safety for film production, and to the Kenai River Center, where the film was recorded.
+
+Slides from this presentation are available at [<https://tinyurl.com/krgasalmonlifecycle>](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0JiT2M5a1ViYTlsaXRsaWVhbWp0OUtaMkF6Z3xBQ3Jtc0tsN0ZzS3JUaG5YdFQ0UHhJZFlhRDd2TGpad1NyT1JLQzJ0dW5qaDRNanc5dnNTazAtWlhTSTRyUEJfOUEyaDhMU0s2YnR0c1R1YjQyZVhadU9zQWV2VXQxdDZFUHRpTkN2NUxMdlZySzRDMFRVU1lLWQ&q=https%3A%2F%2Ftinyurl.com%2Fkrgasalmonlifecycle)
+
 
