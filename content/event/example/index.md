@@ -1,5 +1,5 @@
 ---
-title: How can people and salmon live together?
+title: How can people and salmon coexist?
 
 event: Alaska Wildlife Alliance Wildlife Wednesdays
 event_url: https://www.akwildlife.org/wildlifewednesdays
@@ -25,8 +25,9 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 
   focal_point: Right
+  preview_only: true
 
 links:
 url_code: ""
@@ -50,12 +51,17 @@ projects:
 - example
 ---
 
+[![How can people and salmon coexist?](http://img.youtube.com/vi/knVHLbhP2-8/0.jpg)](http://www.youtube.com/watch?v=CknVHLbhP2-8)
 
+(Click on above image or http://www.youtube.com/watch?v=CknVHLbhP2-8)
 
 Slides can be added in a few ways:
 
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+-   **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+-   **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+-   **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+
+
+The slides used in this presentation can be accessed at this link: [Google Slides Link](https://docs.google.com/presentation/d/1OXZRmZpPwe2P9ximMef2q1dj88LqpX-D57OUi6P3Odo/edit?usp=sharing).
