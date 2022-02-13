@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "2021 11 22 Post2"
+title: "Thanks for checking out my new website!"
 subtitle: ""
 summary: ""
-authors: []
+authors: [Benjamin Meyer]
 tags: []
 categories: []
-date: 2021-11-22T07:25:06-09:00
-lastmod: 2021-11-22T07:25:06-09:00
+date: 2022-02-13T07:25:06-09:00
+lastmod: 2022-02-13T07:25:06-09:00
 featured: false
 draft: false
 
