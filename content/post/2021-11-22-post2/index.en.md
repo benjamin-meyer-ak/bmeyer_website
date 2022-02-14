@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Photo credit Sabine Poux"
   focal_point: ""
   preview_only: false
 
@@ -27,3 +27,5 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+Welcome to my new website! I hope to make this a regular forum for sharing my work, whether it be the more photogenic parts of my job in conservation and ecology, analyzing messy datasets, or retrofitting the old bus in my driveway into a liveable space. It's a privilege to be able to share my thoughts here with you, so please don't hesitate to reach out an say hello any time. You'll find the "Contact Me" section at the top of this page!

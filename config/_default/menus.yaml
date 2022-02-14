@@ -19,8 +19,6 @@ main:
   - name: Publications
     url: '#featured'
     weight: 14
-  - name: Personal
-    url: '#personal'
     weight: 15
   - name: Contact
     url: '#contact'
