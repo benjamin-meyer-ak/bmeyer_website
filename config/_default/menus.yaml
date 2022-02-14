@@ -17,9 +17,11 @@ main:
     url: '#talks'
     weight: 13
   - name: Publications
-    url: '#featured'
+    url: '#publications'
     weight: 14
-    weight: 15
+  - name: Other
+    url: /other/
+    weight: 19
   - name: Contact
     url: '#contact'
     weight: 16

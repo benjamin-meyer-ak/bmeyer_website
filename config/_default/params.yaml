@@ -60,7 +60,7 @@ math: false
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
+  repo_url: 'https://github.com/benjamin-meyer-ak/bmeyer_website'
   content_dir: ''
   repo_branch: main
   editable:
