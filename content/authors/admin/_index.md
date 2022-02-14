@@ -55,6 +55,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/benjamin-meyer-716916166/
+- icon: medium
+  icon_pack: fab
+  link: https://medium.com/@alaskasaurusrex.ak
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
