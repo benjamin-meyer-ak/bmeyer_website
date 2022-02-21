@@ -12,6 +12,8 @@ featured: false
 
 summary: Presentation at the Kenai River Guide Academy in Spring 2021
 
+abstract: "In Spring 2021 I was invited by Dr. David Wartinbee to teach a short unit on the salmon lifecyle at the [Kenai River Guide Academy](http://www.krga.org/). The Guide Academy is a 5-day course that is required for all fishing guides that plan to guide clients on the Kenai River."
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -30,7 +32,7 @@ image:
 projects: []
 ---
 
-In Spring 2021 I was invited by Dr. David Wartinbee to teach a short unit on the salmon lifecyle at the [Kenai River Guide Academy](http://www.krga.org/). The Guide Academy is a 5-day course that is required for all fishing guides that plan to guide clients on the Kenai River.
+
 
 [![The Salmon Lifecycle](http://img.youtube.com/vi/ChAtaJ7YnTA/0.jpg)](http://www.youtube.com/watch?v=ChAtaJ7YnTA)
 

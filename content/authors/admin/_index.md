@@ -73,7 +73,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm an environmental scientist in Soldotna, Alaska. My research interests include juvenile salmon habitat, water quality, climate change, and environmental history. 
+I'm an environmental scientist in Kenai, Alaska. My research interests include juvenile salmon habitat, water quality, climate change, and environmental history. 
 
 
 

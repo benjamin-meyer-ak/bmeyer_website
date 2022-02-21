@@ -1,0 +1,21 @@
+---
+title: How's the water? 
+author: Benjamin Meyer
+date: '2021-03-15'
+slug: how-s-the-water-a-quick-look-at-water-quality-research
+categories: []
+tags: []
+subtitle: '*Talk presented at the 2021 Joint Meeting of the Kachemak Bay Science Conference and Kenai Peninsula Fish Habitat Partnership.*'
+summary: 'A quick look at current water quality research with Kenai Watershed Forum'
+abstract: "In Spring 2021 I shared highlights from a few projects with my work at Kenai Watershed Forum. Thanks to everyone who helped put on this great event!"
+authors: []
+lastmod: '2022-02-21T06:12:15-09:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+[![How's the water?](http://img.youtube.com/vi/V_LTu_liTNc/0.jpg)](https://youtu.be/V_LTu_liTNc)
