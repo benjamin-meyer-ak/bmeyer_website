@@ -1,0 +1,25 @@
+---
+title: As local streams warm, cold water inputs could be crucial for salmon
+author: Benjamin Meyer
+date: '2021-08-25'
+slug: as-local-streams-warm-cold-water-inputs-could-be-crucial-for-salmon
+categories:
+  - Salmon Habitat
+tags:
+  - Radio
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-02-21T06:29:34-09:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+In August 2021 my collaborators and I were interviewed about a project...
+
+
+https://www.kdll.org/post/local-streams-warm-cold-water-inputs-could-be-crucial-salmon#stream/0
