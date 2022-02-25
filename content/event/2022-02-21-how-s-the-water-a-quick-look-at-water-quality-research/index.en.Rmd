@@ -12,10 +12,13 @@ authors: []
 lastmod: '2022-02-21T06:12:15-09:00'
 featured: no
 image:
-  caption: ''
-  focal_point: ''
+  caption: 
+  focal_point: Right
   preview_only: no
 projects: []
 ---
 
 [![How's the water?](http://img.youtube.com/vi/V_LTu_liTNc/0.jpg)](https://youtu.be/V_LTu_liTNc)
+
+
+
