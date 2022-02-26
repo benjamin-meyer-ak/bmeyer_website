@@ -19,7 +19,7 @@ feature:
 - description: Reproducible Analysis and Online Publishing Tools
   icon: r-project
   icon_pack: fab
-  name: R
+  name: R Programming
 - description: Freshwater Ecology and Water Quality
   icon: tint
   icon_pack: fas
