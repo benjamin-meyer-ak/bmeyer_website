@@ -1,11 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Project post 1"
+title: "How do wildfires affect juvenile salmon growth and diet?"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [Salmon Habitat]
 categories: []
 date: 2021-11-22T07:23:21-09:00
 lastmod: 2021-11-22T07:23:21-09:00
@@ -28,4 +28,11 @@ image:
 personal: []
 ---
 
-Content content content! Content content content! Content content content! 
+In summer 2020 I had the privilege to continue work with some of my collaborators at University of Alaska Fairbanks.
+
+
+
+https://www.arcgis.com/apps/mapviewer/index.html?webmap=0bce982e438646e281cb9c6628bff021
+
+https://news.uaf.edu/researchers-evaluate-wildfire-impacts-using-unmanned-aircraft/
+
