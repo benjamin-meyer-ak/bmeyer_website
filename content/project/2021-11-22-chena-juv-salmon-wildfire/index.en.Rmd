@@ -1,0 +1,43 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: "How do wildfires affect juvenile salmon growth and diet?"
+subtitle: ""
+summary: ""
+authors: []
+tags: [Salmon Habitat]
+categories: []
+date: 2021-11-22T07:23:21-09:00
+lastmod: 2021-11-22T07:23:21-09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: "Photo Credit Seth Adams"
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+personal: []
+---
+
+[UAF researchers evaluate wildfire impact using unmanned aircraft (January 22, 2021)](https://news.uaf.edu/researchers-evaluate-wildfire-impacts-using-unmanned-aircraft/)
+
+Long after the smoke and flames are gone, wildfires continue to transform their ecosystems. That's an awkward sentence, but a deliberate one: wildfires have "their ecosystems," because they are just as much part of the forest landscape as bears or trees. Wildfires belong. It's inconvenient for we humans at times that they tend to destroy things that we want to keep, like homes, but wildfires will continue to do their business long after the last human has fled to Mars.
+
+Wildfires affect more than just trees and homes. The loose char of the forest floor is much more easily washed away in the rain, where it ends up in rivers and lakes and affects water quality. As to what this means for juvenile salmon, how they eat and how they grow, remains a question for researchers.
+
+In summer 2020 I had the privilege to work with some of my collaborators at University of Alaska Fairbanks to tackle this question. Dr. Erik Schoen developed a project to expand on existing work with Dr. Jason Neuswanger. We used a variety of innovative approaches to investigate what juvenile Chinook salmon prey upon, how fast they grow, and what sort of water conditions they lived in.
+
+Analysis and writing for this project is still underway. For now, you can check out some slides I presented at the 2021 conference for the Alaska Chapter of the American Fisheries Society.
+
+-   Download 2021 presentation at the Alaska Chapter of the American Fisheries Society
+
+-   [Link to Project Map](https://www.arcgis.com/apps/mapviewer/index.html?webmap=0bce982e438646e281cb9c6628bff021)
