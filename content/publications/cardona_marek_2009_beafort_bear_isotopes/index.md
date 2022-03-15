@@ -29,10 +29,10 @@ publication_types: ["2"]
 #publication: M.S. Thesis
 #publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Total Hg concentration was measured in hair and whole blood of 52 adult Southern Beaufort Sea polar bears (Ursus maritimus) captured in the spring of 2005. Stable isotopic signatures (i.e., 13C/12C, delta13C; 15N/14N, delta15N) in hair and two blood compartments (packed blood cells/clot and serum) were determined to assess the variation of Hg concentrations among polar bears in relation to their feeding ecology and other biological factors. Concentrations of Hg in hair and blood (2.2-23.9 microg/g dry wt and 0.007-0.213 microg/g wet wt, respectively) were within the range of values previously reported for polar bears in Canada and East Greenland. Mercury concentration in hair from females was higher than that in hair from males, and concentration was related to interactions between delta13C, delta15N, and longitude of capture location. Mercury concentrations in hair were inversely correlated to delta13C in hair and blood, suggesting that polar bears with greater total Hg concentrations fed more on pelagic prey, such as ringed seals or beluga whale, than on benthic prey. Variability in Hg concentrations in polar bear hair and blood may be the result of intraspecific or regional variation in prey selection rather than strictly trophic level interactions.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In 2007-2008 I had the privilege of working in the Wildlife Toxicology lab at University of Alaska Fairbanks with Dr. Katrina Knott and Dr. Todd O'Hara, looking in to questions about how diet and geography affect mercury exposure in Alaskan polar bear populations.
 
 tags: []
 
@@ -75,5 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-
