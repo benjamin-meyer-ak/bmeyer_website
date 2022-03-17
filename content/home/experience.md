@@ -32,9 +32,9 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Oversee ongoing programs in water quality monitoring, fish habitat characterization, and regional conservation planning
+        * Oversee ongoing programs in water quality monitoring, fish habitat research, and conservation planning
         * Develop reproducible workflows for data management, analysis, and visualization
-        * Research development and grant writing
+        * Project development and grant writing
         
   - title: Graduate Student and Research Manager
     company: University of Alaska Fairbanks
@@ -45,9 +45,9 @@ experience:
     date_end: '2020-09-01'
     description: |2-
 
-        * Original research on potential effects of climate change on juvenile salmon habitat in the Kenai River, Alaska. 
+        * M.S. thesis on potential effects of climate change on juvenile salmon habitat in the Kenai River, Alaska. 
+        * Research manager and technician for additional projects on juvenile salmon ecology, diet, and predation
         * Teaching assistant for Introduction to Biology (111) and Animal Physiology (310). 
-        * Co-authored three published journal manuscripts, lead author on one manuscript in review.
         
         
 
