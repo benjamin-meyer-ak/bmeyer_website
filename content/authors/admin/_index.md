@@ -6,7 +6,7 @@ title: Benjamin Meyer
 superuser: true
 
 # Role/position/tagline
-role: Environmental Scientist
+# role: Environmental Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:

@@ -19,5 +19,13 @@ image:
   preview_only: no
 projects: []
 ---
+As the climate warms in Alaska, water temperatures will also warm. Warmer waters affect how juvenile salmon grow and live, but not all changes are made equal. Will wild salmon be able to handle the kinds of sweeping environmental changes that are coming in the next century?
+
+My M.S. thesis at University of Alaska Fairbanks focused on juvenile salmon growth and diet in the Kenai River watershed in the context of climate change.
+
+Some stream temperatures may change a lot in the next 100 years, while some much less so. What juvenile salmon eat also
+
+We found that...
+
 
 
