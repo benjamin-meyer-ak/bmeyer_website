@@ -2,7 +2,7 @@
 title: Climate Change and Juvenile Salmon Habitat in the Kenai River Watershed
 author: Benjamin Meyer
 date: '2022-03-06'
-slug: climate-change-and-juvenile-salmon-habitat-in-the-kenai-river-watershed
+slug: climate-change-in-the-kenai-river-watershed
 categories:
   - Salmon Habitat
 tags:
@@ -19,13 +19,9 @@ image:
   preview_only: no
 projects: []
 ---
+
 As the climate warms in Alaska, water temperatures will also warm. Warmer waters affect how juvenile salmon grow and live, but not all changes are made equal. Will wild salmon be able to handle the kinds of sweeping environmental changes that are coming in the next century?
 
-My M.S. thesis at University of Alaska Fairbanks focused on juvenile salmon growth and diet in the Kenai River watershed in the context of climate change.
+My M.S. thesis at University of Alaska Fairbanks focused on juvenile salmon growth and diet in the Kenai River watershed in the context of climate change. We found that juvenile Chinook and Coho salmon in warmer, low-elevation streams may see decreased summer growth rates as air temperatures increase, whereas juvenile salmon in cooler, higher elevation streams may see a smaller magnitude of change.
 
-Some stream temperatures may change a lot in the next 100 years, while some much less so. What juvenile salmon eat also
-
-We found that...
-
-
-
+A manuscript based on the first chapter of my thesis is currently in review; until then [you can access my thesis here.](https://www.benjamin-meyer.net/publications/meyer_2020_ms_thesis/)
