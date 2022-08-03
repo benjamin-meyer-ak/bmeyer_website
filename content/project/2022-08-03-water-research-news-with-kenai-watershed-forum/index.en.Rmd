@@ -2,15 +2,15 @@
 title: Water Research News with Kenai Watershed Forum
 author: Benjamin Meyer
 date: '2022-08-03'
-slug: kwf-water-news
+slug: water-research-news-kwf
 categories:
   - Salmon Habitat
 tags:
-  - Kenai
+  - Kenai Watershed Forum
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-08-03T07:06:54-09:00'
+lastmod: '2022-08-03T07:14:37-08:00'
 featured: no
 image:
   caption: ''
@@ -19,7 +19,7 @@ image:
 projects: []
 ---
 
-For my work with Kenai Watershed Forum I started keeping a blog to share a little bit about various projects I'm involved with. From water quality, to fish habitat, to education, it's a fun mix.
+For my work with [Kenai Watershed Forum](https://www.kenaiwatershed.org/) I started keeping a blog to share a little bit about various projects I'm involved with. From water quality, to fish habitat, to education, it's a fun mix.
 
 You can read more in the "Latest Water Research News" section at the bottom of the page linked here:
 
