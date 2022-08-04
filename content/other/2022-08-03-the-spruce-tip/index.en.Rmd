@@ -19,4 +19,6 @@ image:
 projects: []
 ---
 
-I make no confession as to whether or not I may or may not be involved with contributing to [www.thesprucetip.com](https://www.thesprucetip.com); along with another local character whose work may be found at <https://johnlmessick.com/>. I will say, however, that we are both fans of Swift and Twain, and think we could all use a better sense of humor in our lives!
+I make no confession as to whether or not I may or may not be involved with contributing satirical rants to [www.thesprucetip.com](https://www.thesprucetip.com); along with another local character whose work may be found at <https://johnlmessick.com/>. 
+
+I will say, however, that we are both fans of Swift and Twain, and think we could all use a better sense of humor in our lives!
