@@ -21,13 +21,24 @@ main:
     weight: 14
   - name: Other
     url: /other/
-    weight: 19
+    weight: 50
   - name: Contact
     url: '#contact'
     weight: 16
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+
+  - name: Resumé/CV
+    identifier: tags
+    weight: 30
   - name: Resumé
+    parent: tags
     url: uploads/resume.pdf
-    weight: 17
+    weight: 20
+  - name: Curriculum Vitae
+    parent: tags
+    url: uploads/CV_Benjamin_Meyer_August_2022.pdf
+    weight: 40
+
+# not sure what to replace 'tags' with
