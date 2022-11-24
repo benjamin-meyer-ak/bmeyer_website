@@ -1,0 +1,57 @@
+---
+title: Mapping Alaska's Salmon Streams
+author: Benjamin Meyer
+date: '2022-11-24'
+slug: mapping-alaska-s-salmon-streams
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-11-24T06:29:36-09:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+
+DRAFT
+
+
+current technique: visually estimate upper extent of anadromy, go to that spot, nominate AC
+
+future technique: ground-truth model, when model is good, use for permitting purposes
+
+to do - decide on best approach/model
+options:
+a.) use ~12% gradient on NHD+ as upper estimate
+b.) use NetMap/statistical approach
+
+
+
+As an initial project, Rivulet intends to tackle a challenge related to freshwater salmon habitat management in Alaska. Today, there is an enormous gap between our knowledge of salmon habitat geography and the needs of Alaska’s fish habitat managers.
+It is estimated that less than half of Alaska’s freshwater salmon habitat is documented and mapped; and as a result these streams and lakes lack the legal protection afforded by inclusion in the Alaska Department of Fish and Game’s (ADF&G) Anadromous Waters Catalog. When environmental impacts are reviewed prior to development projects, undocumented anadromous streams do not require a Fish Habitat Permit issued by ADF&G. As a result, thousands of stream miles outside of protected areas are vulnerable to development impacts such blockages from road crossings, erosion and runoff from impervious surfaces, and riparian denudement. Threats to these undocumented anadromous habitats come from both small scale developments such as driveway crossings as well as on a large scale such as a mining developments.
+In order to nominate salmon habitat for inclusion in the Anadromous Waters Catalog, ADF&G requires in-person visual confirmation of anadromous fish at the site location. The work requires  hands-on fieldwork by fisheries technicians and volunteers, frequently via little-traveled routes crossing a complex patchwork of land ownership. 
+Mapping techniques for determining where technicians should prospect for “upper extent of anadromy” have been successfully applied in southeast Alaska by the U.S. Forest Service. In most of the rest of Alaska, these techniques that offer enormous gains in efficiency towards adding AWC nominations have yet to be applied.
+Several years experience has shown that the Alaskan public has a strong interest in contributing to the cause.
+The experience offers a hands-on experience to seek and find “baby salmon” in surprising places, 
+Thesis chapters
+Proof of concept for creating and using “treasure map” with volunteer labor
+Existing municipal, state, and federal laws - how and where are there gaps, how could it change? Focus on regional examples in misc places
+Exploration for how to reverse assumptions on anadromy - what would it take for legal framework to change such that we assume waters “are” anadromous unless evidence suggests otherwise?
+Upstream: lit review of headwater contributions and their function in downstream nutrition
+
+People to contact:
+Bidlack
+Falke
+Benda
+Romey
+
+
+
+
+
+
+
