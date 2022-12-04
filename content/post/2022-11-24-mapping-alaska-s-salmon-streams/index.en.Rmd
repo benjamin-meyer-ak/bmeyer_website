@@ -26,7 +26,7 @@ future technique: ground-truth model, when model is good, use for permitting pur
 
 to do - decide on best approach/model
 options:
-a.) use ~12% gradient on NHD+ as upper estimate
+a.) use ~12% gradient on NHD+ as upper estimate ( can use other features from NHD?)
 b.) use NetMap/statistical approach
 
 

@@ -43,7 +43,7 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [] # [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -68,6 +68,7 @@ related:
       weight: 70
 
 # 11/11/2022
+# 12/4/2022 -- no longer works
 security:
   funcs:
     getenv:
