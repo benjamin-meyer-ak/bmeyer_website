@@ -1,5 +1,8 @@
 To do list
 
+#12/4/2022
+Status: site will buld locally and pushes commit to github, but changes not deployed via netlify. look up where breakage occurs? (both changes of old posts and creation of new posts)
+
 
 Communication
 
