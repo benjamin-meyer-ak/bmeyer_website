@@ -46,3 +46,4 @@ echo "If there are breaking changes, the site structure, config, and/or front ma
 echo
 echo "View the update guide at: https://wowchemy.com/docs/update/"
 echo "View the latest release notes at: https://wowchemy.com/updates/"
+
