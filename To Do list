@@ -3,6 +3,10 @@ To do list
 #12/4/2022
 Status: site will buld locally and pushes commit to github, but changes not deployed via netlify. look up where breakage occurs? (both changes of old posts and creation of new posts)
 
+12/11
+Updated hugo version reference in depoy files.
+Status: site builds locally and has successful build on netlify, changes are reflected on github. BUT pushed chnages are not reflected on url page. unclear.
+
 
 Communication.
 
