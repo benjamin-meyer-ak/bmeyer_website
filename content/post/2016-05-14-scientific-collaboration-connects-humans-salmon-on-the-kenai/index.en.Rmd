@@ -1,22 +1,23 @@
 ---
-title: Scientific collaboration connects humans, salmon on the Kenai
-author: Benjamin Meyer
-date: '2016-05-14'
-slug: scientific-collaboration-connects-humans-salmon-on-the-kenai
-categories:
-  - Salmon Habitat
-tags:
-  - Kenai
+title: "Scientific collaboration connects humans, salmon on the Kenai"
+author: "Benjamin Meyer"
+date: "2016-05-14"
+slug: "scientific-collaboration-connects-humans-salmon-on-the-kenai"
+categories: Salmon Habitat
+tags: Kenai
 subtitle: ''
-summary: 'In spring 2016 I had the pleasure of hiking to Upper Russian Lake with two of my good friends to install water temperature loggers as part of my graduate research.  Our local paper the Peninsula Clarion published this nice account about the journey and the larger project.'
+summary: In spring 2016 I had the pleasure of hiking to Upper Russian Lake with two
+  of my good friends to install water temperature loggers as part of my graduate research.  Our
+  local paper the Peninsula Clarion published this nice account about the journey
+  and the larger project.
 authors: []
-lastmod: '2022-02-25T06:20:20-09:00'
+lastmod: "2022-02-25T06:20:20-09:00"
 featured: no
 image:
-  caption: 'Photo Credit John Messick'
+  caption: Photo Credit John Messick
   focal_point: ''
   preview_only: no
-projects: [Alaska EPSCoR]
+projects: Alaska EPSCoR
 ---
 
 **Peninsula Clarion, May 15, 2016 - [Article Link](https://www.peninsulaclarion.com/news/scientific-collaboration-connects-humans-salmon-on-the-kenai/)**

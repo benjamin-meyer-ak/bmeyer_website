@@ -76,3 +76,9 @@ security:
     getenv:
       - ^HUGO_
       - ^WC_
+
+
+# 1/4/2022
+# Let the user override the default light/dark mode of your theme?
+show_day_night: true
+
