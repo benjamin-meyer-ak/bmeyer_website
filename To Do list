@@ -6,6 +6,7 @@ Status: site will buld locally and pushes commit to github, but changes not depl
 12/11
 Updated hugo version reference in depoy files.
 Status: site builds locally and has successful build on netlify, changes are reflected on github. BUT pushed chnages are not reflected on url page. unclear.
+local build version also does not reflect chnages to Rmd files!
 
 
 Communication.
