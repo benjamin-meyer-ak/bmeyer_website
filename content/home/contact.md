@@ -45,10 +45,6 @@ content:
       icon_pack: fab
       name: DM Me
       link: 'https://twitter.com/wildsalmonbot'
-#    - icon: video
-#      icon_pack: fas
-#      name: Zoom Me
-      link: 'https://zoom.com'
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
