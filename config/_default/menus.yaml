@@ -42,7 +42,7 @@ main:
     weight: 40
   - name: PhD Interest Letter
     parent: tags
-    url: uploads/Letter of Interest and Resume for Potential PhD Advisors, Benjamin Meyer.pdf
+    url: uploads/letter_of_interest_meyer.pdf
     weight: 60
 
 # not sure what to replace 'tags' with
