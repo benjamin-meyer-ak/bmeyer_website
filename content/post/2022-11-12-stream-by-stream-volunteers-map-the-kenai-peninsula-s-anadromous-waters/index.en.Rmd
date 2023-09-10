@@ -1,17 +1,16 @@
 ---
-title: Stream by stream, volunteers map the Kenai Peninsula's anadromous waters
-author: Benjamin Meyer
-date: '2022-11-12'
-slug: stream-by-stream-volunteers-map-the-kenai-peninsula-s-anadromous-waters
+title: "Stream by stream, volunteers map the Kenai Peninsula's anadromous waters"
+author: "Benjamin Meyer"
+date: "2022-11-12"
+slug: "stream-by-stream-volunteers-map-the-kenai-peninsula-s-anadromous-waters"
 categories:
-  - Salmon Habitat
-  - Science Outreach
-tags:
-  - Kenai Watershed Forum
+- Salmon Habitat
+- Science Outreach
+tags: Kenai Watershed Forum
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-11-12T08:22:35-09:00'
+lastmod: "2022-11-12T08:22:35-09:00"
 featured: no
 image:
   caption: ''
@@ -20,7 +19,7 @@ image:
 projects: []
 ---
 
-[***From KDLL Public Radio: Stream by stream, volunteers map the Kenai Peninsula's anadromous waters***](Stream by stream, volunteers map the Kenai Peninsula's anadromous waters)
+[***From KDLL Public Radio: Stream by stream, volunteers map the Kenai Peninsula's anadromous waters***](https://www.kdll.org/local-news/2022-09-02/stream-by-stream-volunteers-map-the-kenai-peninsulas-anadromous-waters)
 
 Click the link above for yet another great story from KDLL public radio's Sabine Poux about a neat project I've been involved with. Over half Alaska's salmon streams have yet to be mapped, and it takes a lot of work to get them catalogued. The Kenai Peninsula Chapter of Trout Unlimited sponsored a project to help in this task using their own volunteer chapter members, and I had the privilege of helping along the way.
 
