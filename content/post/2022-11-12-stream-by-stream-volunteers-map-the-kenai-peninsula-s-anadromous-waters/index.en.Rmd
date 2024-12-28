@@ -11,11 +11,11 @@ subtitle: ''
 summary: ''
 authors: []
 lastmod: "2022-11-12T08:22:35-09:00"
-featured: no
+featured: false
 image:
   caption: ''
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 
