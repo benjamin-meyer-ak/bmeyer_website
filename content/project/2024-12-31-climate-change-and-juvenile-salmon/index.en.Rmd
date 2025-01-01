@@ -1,8 +1,8 @@
 ---
 title: Climate Change and Juvenile Salmon Habitat in the Kenai River Watershed
 author: Benjamin Meyer
-date: '2022-03-06'
-slug: climate-change-in-the-kenai-river-watershed
+date: '2024-12-31'
+slug: climate-change-and-juvenile-salmon
 categories:
   - Salmon Habitat
 tags:
@@ -11,7 +11,7 @@ tags:
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-03-06T09:20:54-09:00'
+lastmod: '2024-12-31T16:01:49-09:00'
 featured: no
 image:
   caption: ''
@@ -27,4 +27,3 @@ My M.S. thesis at University of Alaska Fairbanks focused on juvenile salmon grow
 A manuscript based on the first chapter of my thesis was published in Transactions of the American Fisheries Society in November 2022, available [here](https://www.kenaiwatershed.org/news-media/new-journal-article-by-kwf-staff-climate-change-and-juvenile-salmon-in-the-kenai-river/).
 
 You can also access my full thesis [here.](https://www.benjamin-meyer.net/publications/meyer_2020_ms_thesis/)
-
