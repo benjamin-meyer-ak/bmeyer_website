@@ -37,11 +37,11 @@ address:
   postcode: '99611'
   country: United States
   country_code: US
-contact_links:
-    icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/wildsalmonbot'
+#contact_links:
+#    icon: twitter
+#    icon_pack: fab
+#    name: DM Me
+#    link: 'https://twitter.com/wildsalmonbot'
 
 
 # Site header
@@ -60,7 +60,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2023 Benjamin Meyer.'
+    notice: '© 2025 Benjamin Meyer.'
     license:
       enable: true
       allow_derivatives: false
