@@ -38,7 +38,7 @@ main:
     weight: 20
   - name: Curriculum Vitae
     parent: tags
-    url: uploads/CV_Meyer_April_2023.pdf
+    url: uploads/CV_Meyer_Jan_2025.pdf
     weight: 40
   - name: PhD Interest Letter
     parent: tags
