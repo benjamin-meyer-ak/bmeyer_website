@@ -19,3 +19,5 @@ image:
 projects: []
 ---
 Read on to see recent examples of my work! I maintain the blog at [**Kenai Watershed Forum Latest News**](https://www.kenaiwatershed.org/about-kwf/news-media/). Click for more on water quality, fish habitat, education, and beyond. 
+
+
