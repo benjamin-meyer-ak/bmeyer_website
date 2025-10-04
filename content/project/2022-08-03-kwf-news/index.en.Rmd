@@ -18,4 +18,4 @@ image:
   preview_only: no
 projects: []
 ---
-See here for recent examples of my work! I maintain a blog at [www.kenaiwatershed.org](https://www.kenaiwatershed.org/) to share various projects I'm involved with. From water quality, to fish habitat, to education, it's a fun mix. Visit [**Kenai Watershed Forum Latest News**](https://www.kenaiwatershed.org/about-kwf/news-media/) to read more.
+Read on to see recent examples of my work! I maintain the blog at [**Kenai Watershed Forum Latest News**](https://www.kenaiwatershed.org/about-kwf/news-media/). Click for more on water quality, fish habitat, education, and beyond. 
