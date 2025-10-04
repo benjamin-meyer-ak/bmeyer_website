@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Water Quality Coordinator
+  - title: Research Coordinator
     company: Kenai Watershed Forum
     company_url: 'https://kenaiwatershed.org/'
     company_logo: kwf_logo
@@ -34,7 +34,7 @@ experience:
         
         * Oversee ongoing programs in water quality monitoring, fish habitat research, and conservation planning
         * Develop reproducible workflows for data management, analysis, and visualization
-        * Project development and grant writing
+        * Project development, grant writing, and fundraising
         
   - title: Graduate Student and Research Manager
     company: University of Alaska Fairbanks
