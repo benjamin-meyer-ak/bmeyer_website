@@ -1,0 +1,19 @@
+---
+title: "The King of Fish “Book Drop”: Generating Conversation and Shared Values about Salmon in Alaska"
+author: "Benjamin Meyer"
+date: 2017-07-17
+description: "What happens when you give away thousands of copies of the same thought-provoking book about the history of salmon all over Alaska?"
+categories: [Journal article]
+image: featured.JPG
+doi: "10.1080/03632415.2017.1330048"
+note: "In special July 2017 issue of Fisheries, 'Shall we advocate?'"
+---
+
+DOI: [10.1080/03632415.2017.1330048](https://doi.org/10.1080/03632415.2017.1330048)
+*In special July 2017 issue of Fisheries, 'Shall we advocate?'*
+
+## Links
+
+- [Local PDF](meyer_2017_book_drop.pdf)
+- [Project page](https://salmonproject.org/our-projects/king-of-fish-book-drop/)
+- [Slides](https://docs.google.com/presentation/d/1afBIo4vxqd5l7MREsX-BCrnqzFaTAd3G9pxMIB_h1f0/edit?usp=sharing)

@@ -1,0 +1,15 @@
+---
+title: "2020 Kenai Beach Bacteria Monitoring Report"
+author: "Benjamin Meyer"
+date: 2021-02-21
+description: "At the mouth of the Kenai River, thousands of salmon carcasses attract  thousands of seagulls. What does this mean for water quality?"
+categories: [Report]
+image: featured.png
+note: "Report for Alaska Department of Environmental Conservation by Kenai Watershed Forum"
+---
+
+*Report for Alaska Department of Environmental Conservation by Kenai Watershed Forum*
+
+## Links
+
+- [Publisher / external PDF](https://dec.alaska.gov/media/23091/kenai-river-beach-2020-final-report.pdf)

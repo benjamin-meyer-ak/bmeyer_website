@@ -1,0 +1,15 @@
+---
+title: "Status of Copper and Zinc Levels Throughout the Kenai River Watershed"
+author: "Benjamin Meyer"
+date: 2021-04-29
+description: "This report summarizes water a portion of water quality data focusing on metals in the lower Kenai River watershed."
+categories: [Report]
+image: featured.png
+note: "Report of Alaska Department of Environmental Conservation by Kenai Watershed Forum"
+---
+
+*Report of Alaska Department of Environmental Conservation by Kenai Watershed Forum*
+
+## Links
+
+- [Publisher / external PDF](https://dec.alaska.gov/media/22967/copper-zinc-field-report-2019-2020.pdf)

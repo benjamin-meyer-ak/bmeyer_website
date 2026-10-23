@@ -1,0 +1,20 @@
+---
+title: "Landscape characteristics influence projected growth rates of stream‐resident juvenile salmon in the face of climate change in the Kenai River watershed, south‐central Alaska"
+author: "Benjamin Meyer et al."
+date: 2023-03-17
+description: "As water temperatures warm in southcentral Alaska salmon streams, we expect that peak summer summer growth rates for Chinook and coho salmon will decrease throughout parts of their habitat."
+categories: [Journal article]
+image: featured.JPEG
+doi: "10.1002/tafs.10397"
+---
+
+DOI: [10.1002/tafs.10397](https://doi.org/10.1002/tafs.10397)
+
+## Abstract
+
+Climate change is affecting the distribution and productivity of Pacific salmon throughout their range. At high latitudes, warmer temperatures have been associated with increased freshwater growth of juvenile salmon, but it is not clear how long this trend will continue before further warming leads to reduced growth. To explore the potential influence of climate warming on juvenile Chinook and Coho Salmon summer growth rates in southcentral Alaska, we coupled bioenergetics models with temperature sensitivity models for streams across the Kenai River watershed. Methods We measured diet (n =772 stomachs) and growth (n =?3,791 weight/length values) under current conditions and used published air temperature projections to model growth for the 2030?2039 and 2060?2069 decades. Result We estimated direct effects of climate warming on juvenile growth (body mass at the end of May?September study period) will be primarily negative, ranging from +5.1% to -22.8% relative to a 2010-2019 baseline. Estimated effects depended on age cohort, feeding rate, and climate scenario. However, an extended growing season from warming could mitigate or offset predicted reductions in growth during midsummer. Conclusion Our results illustrate how diverse habitats are expected to produce variation in the magnitude of climate effects throughout juvenile salmon rearing environments.
+
+## Links
+
+- [Local PDF](meyer_2023_kenai.pdf)
+- [Publisher / external PDF](https://www.kenaiwatershed.org/wp-content/uploads/2023/03/Trans-Am-Fish-Soc-2022-Meyer-Landscape-characteristics-influence-projected-growth-rates-of-stream%E2%80%90resident-juvenile.pdf)

@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  # Explicit list: the Hugo content/ tree stays in place until cutover
+  resources:
+    - uploads/**
+  render:
+    - index.qmd
+    - projects.qmd
+    - publications.qmd
+    - talks.qmd
+    - blog/index.qmd
+    - blog/posts/**/*.qmd
+    - projects/**/*.qmd
+    - talks/**/*.qmd
+    - publications/**/*.qmd
+
+website:
+  title: "Benjamin Meyer"
+  site-url: https://www.benjamin-meyer.net
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog/index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: "Resume/CV"
+        menu:
+          - text: Resume
+            href: uploads/resume.pdf
+          - text: Curriculum Vitae
+            href: uploads/CV_Meyer_October_2025.pdf
+          - text: PhD Interest Letter
+            href: uploads/letter_of_interest_meyer.pdf
+      - icon: github
+        href: https://github.com/benjamin-meyer-ak
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamin-meyer-716916166/
+  page-footer:
+    left: "© 2026 Benjamin Meyer"
+    right:
+      - text: "Support on Ko-fi"
+        href: https://ko-fi.com/KOFI_USERNAME
+
+format:
+  html:
+    theme: cosmo
+    toc: false

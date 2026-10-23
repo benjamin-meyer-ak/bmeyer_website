@@ -1,0 +1,16 @@
+---
+title: "Piscine predation on juvenile salmon in sub‐arctic Alaskan rivers: Associations with season, habitat, predator size and streamflow"
+author: "Erik Schoen et al."
+date: 2021-04-01
+description: "Unlike in southcentral Alaska, interior Alaskan pike don't seem to be eating too many baby salmon."
+categories: [Journal article]
+image: featured.jpg
+doi: "10.1111/eff.12626"
+---
+
+DOI: [10.1111/eff.12626](https://doi.org/10.1111/eff.12626)
+
+## Links
+
+- [Local PDF](schoen_2021_pike.pdf)
+- [Publisher / external PDF](https://www.researchgate.net/profile/Erik-Schoen/publication/353641328_Piscine_predation_on_juvenile_salmon_in_sub-arctic_Alaskan_rivers_Associations_with_season_habitat_predator_size_and_streamflow/links/61082ff10c2bfa282a1a2291/Piscine-predation-on-juvenile-salmon-in-sub-arctic-Alaskan-rivers-Associations-with-season-habitat-predator-size-and-streamflow.pdf)

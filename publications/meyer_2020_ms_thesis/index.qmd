@@ -1,0 +1,16 @@
+---
+title: "Landscape Characteristics Influence Climate Change Effects on Juvenile Chinook and Coho Salmon Rearing Habitat in the Kenai River Watershed"
+author: "Benjamin Meyer"
+date: 2020-07-01
+description: "My master's thesis at University of Alaska Fairbanks focused on diet and habitat of juvenile Chinook and Coho salmon in the Alaska's Kenai River."
+categories: [Thesis]
+image: featured.JPG
+note: "M.S. Thesis at University of Alaska Fairbanks"
+---
+
+*M.S. Thesis at University of Alaska Fairbanks*
+
+## Links
+
+- [Local PDF](benjamin_meyer_thesis.pdf)
+- [Publisher / external PDF](https://www.proquest.com/openview/78a7188a729fd0d3d119dff5a78440c5/1?pq-origsite=gscholar&cbl=44156)

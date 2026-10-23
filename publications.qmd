@@ -1,0 +1,9 @@
+---
+title: "Publications"
+listing:
+  contents: publications
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [image, date, title, author, description, categories]
+---

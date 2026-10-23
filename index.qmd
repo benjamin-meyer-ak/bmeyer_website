@@ -1,0 +1,30 @@
+---
+title: "Benjamin Meyer"
+about:
+  template: jolla
+  image: images/avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:benjamin.meyer.ak@gmail.com"
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=oqgMtEwAAAAJ&hl=en"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/benjamin-meyer-ak"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/benjamin-meyer-716916166/"
+    - icon: medium
+      text: Medium
+      href: "https://medium.com/@alaskasaurusrex.ak"
+---
+
+I'm an environmental scientist in Kenai, Alaska, working with the [Kenai Watershed Forum](https://www.kenaiwatershed.org/). My interests are freshwater ecology, water quality, and salmon habitat. Be in touch and let's make things happen!
+
+## Education
+
+- MS in Fisheries, University of Alaska Fairbanks, 2020
+- BS in Biology, University of Alaska Fairbanks, 2009
+- BS in Biochemistry, University of Alaska Fairbanks, 2009

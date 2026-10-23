@@ -1,0 +1,21 @@
+---
+title: "The Salmon Lifecycle"
+subtitle: "Kenai River Guide Academy 2021"
+author: "Benjamin Meyer"
+date: 2021-03-25
+description: "Presentation at the Kenai River Guide Academy in Spring 2021"
+categories: [Kenai River Guide Academy, Salmon Lifecycle]
+image: "http://img.youtube.com/vi/ChAtaJ7YnTA/0.jpg"
+aliases:
+  - /event/2021-11-25-the-salmon-lifecycle-kenai-river-guide-academy-2020/
+---
+
+In Spring 2021 I was invited by Dr. David Wartinbee to teach a short unit on the salmon lifecycle at the [Kenai River Guide Academy](http://www.krga.org/). The Guide Academy is a 5-day course that is required for all fishing guides that plan to guide clients on the Kenai River.
+
+[![The Salmon Lifecycle](http://img.youtube.com/vi/ChAtaJ7YnTA/0.jpg)](http://www.youtube.com/watch?v=ChAtaJ7YnTA)
+
+Click the image above or visit <https://youtu.be/ChAtaJ7YnTA>.
+
+Thanks again to Kosette Isakson and Annie Grenier from the Alaska Office of Boating Safety for film production, and to the Kenai River Center, where the film was recorded.
+
+Slides from this presentation are available at <https://tinyurl.com/krgasalmonlifecycle>.

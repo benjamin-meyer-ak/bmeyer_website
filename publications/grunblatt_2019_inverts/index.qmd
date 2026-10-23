@@ -1,0 +1,17 @@
+---
+title: "Invertebrate prey contributions to juvenile Coho Salmon diet from riparian habitats along three Alaska streams: Implications for environmental change"
+author: "Jess Grunblatt et al."
+date: 2019-08-26
+description: "Vegetation alongside streambanks means more bugs in the water for juvenile coho salmon to eat."
+categories: [Journal article]
+image: featured.png
+doi: "10.1080/02705060.2019.1642243"
+---
+
+DOI: [10.1080/02705060.2019.1642243](https://doi.org/10.1080/02705060.2019.1642243)
+
+## Links
+
+- [Local PDF](grunblatt_2019_inverts.pdf)
+- [Publisher / external PDF](https://www.tandfonline.com/doi/pdf/10.1080/02705060.2019.1642243)
+- [Video](https://www.youtube.com/watch?v=9p9w2Wx5YnA)

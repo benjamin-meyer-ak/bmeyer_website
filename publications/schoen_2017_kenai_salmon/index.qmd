@@ -1,0 +1,17 @@
+---
+title: "Future of Pacific Salmon in the Face of Environmental Change: Lessons from One of the World's Remaining Productive Salmon Regions"
+author: "Erik Schoen et al."
+date: 2017-10-03
+description: "In 2017 I was privileged to be a co-author on this expansive perspective focusing on management of salmon and their habitat in Alaska's Kenai River."
+categories: [Journal article]
+image: featured.jpeg
+doi: "10.1080/03632415.2017.1374251"
+---
+
+DOI: [10.1080/03632415.2017.1374251](https://doi.org/10.1080/03632415.2017.1374251)
+
+## Links
+
+- [Local PDF](schoen_2017_kenai_salmon.pdf)
+- [Publisher page (Taylor & Francis)](https://www.tandfonline.com/doi/full/10.1080/03632415.2017.1374251)
+- [Project page](https://www.alaska.edu/epscor/archive/phase-4/southcentral-test-case/)

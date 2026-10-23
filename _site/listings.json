@@ -1,0 +1,45 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/example-post-one/index.html",
+      "/blog/posts/example-post-two/index.html",
+      "/blog/posts/example-post-three/index.html",
+      "/blog/posts/stream-by-stream-volunteers-map/index.html",
+      "/blog/posts/a-visit-to-skilak-glacier/index.html",
+      "/blog/posts/as-local-streams-warm/index.html",
+      "/blog/posts/scientific-collaboration/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/meyer_2023_kenai/index.html",
+      "/publications/meyer_2021_kenai_copper_zinc/index.html",
+      "/publications/schoen_2021_pike/index.html",
+      "/publications/meyer_2021_kenai_beach_bacteria/index.html",
+      "/publications/meyer_2020_ms_thesis/index.html",
+      "/publications/grunblatt_2019_inverts/index.html",
+      "/publications/schoen_2017_kenai_salmon/index.html",
+      "/publications/meyer_2017_book_drop/index.html",
+      "/publications/gouin_2010_pah/index.html",
+      "/publications/cardona_marek_2009_beafort_bear_isotopes/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/climate-change-and-juvenile-salmon/index.html",
+      "/projects/kwf-news/index.html",
+      "/projects/chena-juv-salmon-wildfire/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/unmapped-salmon-habitat/index.html",
+      "/talks/krga-salmon-lifecycle/index.html",
+      "/talks/hows-the-water/index.html"
+    ]
+  }
+]

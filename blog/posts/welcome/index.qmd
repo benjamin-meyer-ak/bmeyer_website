@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+description: "Placeholder first post for the new Quarto site."
+date: 2026-10-22
+categories: [meta]
+draft: true
+---
+
+Placeholder. Replace with the first real post.
