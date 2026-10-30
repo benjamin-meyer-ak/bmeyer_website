@@ -6,10 +6,16 @@ listing:
   type: default
   categories: true
   feed: true
-page-layout: full
 title-block-banner: false
 ---
 
 ```{=html}
 {{< include ../_includes/subscribe.html >}}
+<script>
+window.addEventListener("load", function () {
+  var sidebar = document.querySelector("#quarto-margin-sidebar");
+  var box = document.querySelector(".subscribe-box");
+  if (sidebar && box) sidebar.appendChild(box);
+});
+</script>
 ```

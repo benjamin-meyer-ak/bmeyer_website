@@ -10,7 +10,7 @@
 <atom:link href="https://www.benjamin-meyer.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Tue, 20 Oct 2026 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 08:00:00 GMT</lastBuildDate>
 <item>
   <title>Example Post One: Lorem Ipsum</title>
   <dc:creator>Benjamin Meyer</dc:creator>
@@ -29,7 +29,7 @@
  ]]></description>
   <category>example</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/example-post-one/</guid>
-  <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 20 Oct 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Example Post Two: Dolor Sit Amet</title>
@@ -56,7 +56,7 @@
  ]]></description>
   <category>example</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/example-post-two/</guid>
-  <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+  <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Example Post Three: Consectetur Adipiscing</title>
@@ -79,7 +79,7 @@
  ]]></description>
   <category>example</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/example-post-three/</guid>
-  <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 10 Oct 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Stream by stream, volunteers map the Kenai Peninsula’s anadromous waters</title>
@@ -101,7 +101,7 @@
   <category>Science Outreach</category>
   <category>Kenai Watershed Forum</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/stream-by-stream-volunteers-map/</guid>
-  <pubDate>Sat, 12 Nov 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 12 Nov 2022 09:00:00 GMT</pubDate>
   <media:content url="https://www.benjamin-meyer.net/blog/posts/stream-by-stream-volunteers-map/featured.JPEG" medium="image"/>
 </item>
 <item>
@@ -150,7 +150,7 @@ Schoen, Erik R., Mark S. Wipfli, E. Jamie Trammell, Daniel J. Rinella, Angelica 
   <category>Salmon Habitat</category>
   <category>Kenai</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/a-visit-to-skilak-glacier/</guid>
-  <pubDate>Fri, 11 Nov 2022 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 11 Nov 2022 09:00:00 GMT</pubDate>
   <media:content url="https://www.benjamin-meyer.net/blog/posts/a-visit-to-skilak-glacier/featured.JPG" medium="image"/>
 </item>
 <item>
@@ -171,7 +171,7 @@ Schoen, Erik R., Mark S. Wipfli, E. Jamie Trammell, Daniel J. Rinella, Angelica 
   <category>Salmon Habitat</category>
   <category>Radio</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/as-local-streams-warm/</guid>
-  <pubDate>Wed, 25 Aug 2021 06:00:00 GMT</pubDate>
+  <pubDate>Wed, 25 Aug 2021 08:00:00 GMT</pubDate>
   <media:content url="https://www.benjamin-meyer.net/blog/posts/as-local-streams-warm/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -196,7 +196,7 @@ Schoen, Erik R., Mark S. Wipfli, E. Jamie Trammell, Daniel J. Rinella, Angelica 
   <category>Academic</category>
   <category>Kenai</category>
   <guid>https://www.benjamin-meyer.net/blog/posts/scientific-collaboration/</guid>
-  <pubDate>Sat, 14 May 2016 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 May 2016 08:00:00 GMT</pubDate>
   <media:content url="https://www.benjamin-meyer.net/blog/posts/scientific-collaboration/featured.JPG" medium="image"/>
 </item>
 </channel>

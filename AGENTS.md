@@ -4,7 +4,9 @@
 
 Personal academic/research website for Benjamin Meyer (salmon habitat research, thermal imagery, Kenai River watershed focus). Live at https://www.benjamin-meyer.net/, deployed on **Netlify**.
 
-**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (nothing committed yet as of Oct 22). `master` and the live site are untouched until cutover.
+**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (first commit `870ef66`; later work on Oct 30 is uncommitted; branch is local only, not pushed to `origin`). `master` and the live site are untouched until cutover.
+
+**Deployment safety:** production deploys from `master`, whose `netlify.toml` still builds Hugo. Never merge `quarto-migration` into `master` or make it Netlify's production branch until the Quarto site is ready for public viewing. If pushing the branch, enable Netlify branch deploys for `quarto-migration` only (not "All"); consider a `noindex` meta tag for the preview. `.github/workflows/updater-wip.yml` (Wowchemy updater) was not reviewed.
 
 Style: avoid em dashes and AI writing tropes, use the base pipe `|>`, keep code comments minimal.
 
@@ -19,8 +21,17 @@ Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; outp
 - `static/uploads/` was moved to `uploads/` (git mv) so URLs stay `/uploads/...`. Avatar is at `images/avatar.jpg`.
 - `index.qmd`: jolla about-template (bio, education, social links).
 - `projects.qmd`, `talks.qmd`, `publications.qmd`: listing pages reading from same-named folders, sorted by date descending.
-- `_includes/subscribe.html`: newsletter form, pulled into `blog/index.qmd` via an include wrapped in a raw HTML block (the bare include gave an "unclosed div" warning).
+- `_includes/subscribe.html`: Brevo iframe embed, pulled into `blog/index.qmd` via an include inside a raw HTML block (the bare include gave an "unclosed div" warning). An inline script in `blog/index.qmd` moves `.subscribe-box` to the end of `#quarto-margin-sidebar` on load so it sits below the categories list (a `.column-margin` wrapper put it above the categories). `page-layout: full` was removed from the blog index because it removes the margin column.
 - `_includes/kofi.html`: Ko-fi button, currently unused.
+- `netlify.toml` (on this branch only): downloads Quarto 1.6.40 from GitHub in the build command, runs `quarto render`, publishes `_site`. No Hugo pins or cache plugin. Not yet tested on Netlify; if the build fails, check the `$HOME/quarto-1.6.40/bin/quarto` path. No qmd pages contain R/Python chunks, so R is not needed on Netlify.
+
+### Where to edit (Quarto)
+- Landing page and education list: `index.qmd` (Education section at the bottom; links in the YAML header).
+- Navbar, footer, theme: `_quarto.yml`.
+- Posts, projects, talks, publications: `<section>/<name>/index.qmd`. Listing pages (`blog/index.qmd`, `projects.qmd`, `talks.qmd`, `publications.qmd`) only set layout.
+- Uploads (PDFs etc.): `uploads/`.
+- Hugo leftovers (`content/`, `config/`, `config.yaml`, `layouts/`, `static/`, `public/`, `exampleSite/`, `go.mod`) are ignored by the Quarto build; do not edit.
+- Preview: `quarto preview --port 4848` (run in an RStudio terminal), http://localhost:4848/.
 
 ### Content ported
 - **Blog (`blog/posts/`):** `as-local-streams-warm` (KDLL radio, a stub that needs finishing), `a-visit-to-skilak-glacier` (uses `references.bib`, about 24 MB of photos), `stream-by-stream-volunteers-map`, `scientific-collaboration`. Each has an `aliases:` entry for its old `/post/...` URL. Wowchemy example posts were skipped.
@@ -32,16 +43,17 @@ Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; outp
   - Gouin 2010: DOI 10.5094/APR.2010.002, ScienceDirect pii S1309104215305560. The old Hugo record wrongly reused the Schoen DOI.
 
 ### Newsletter and donations
-- **Newsletter:** Brevo recommended (free: 300 emails/day, up to 100,000 contacts, fixed "Sent with Brevo" logo). Mailjet was considered (free: 6,000/month, 200/day, 1,000 contacts, send hold above that); user has not yet chosen. Workflow: manual sends from the provider dashboard, chosen per post.
-- `_includes/subscribe.html` has placeholder `action="BREVO_FORM_URL"` and email field `EMAIL`. Switching providers only changes the action URL and field names.
-- **Ko-fi:** username placeholder `KOFI_USERNAME` appears in `_quarto.yml` and `_includes/kofi.html`.
+- **Newsletter:** Brevo chosen (free: 300 emails/day, up to 100,000 contacts, fixed "Sent with Brevo" logo). Mailjet was considered and rejected (1,000 contact cap). Workflow: manual sends from the Brevo dashboard, chosen per post.
+- Brevo form is embedded as an iframe (form host `65b8821f.sibforms.com`) in `_includes/subscribe.html`; the user updates the form in Brevo and pastes new embed code, so the URL may change. Current iframe height is 340 px, an estimate for the narrow margin column; adjust if scrollbars or gaps appear.
+- **Gray background issue:** the gray around the white form box is Brevo's page body background (`#EFF2F7`), inside the cross-origin iframe, so site CSS cannot change it and the iframe height only crops it. Fix is in Brevo (Form design, Background section, set to white/transparent, then save/publish). As of last check the live form still served gray. Fallback: crop with an `overflow: hidden` wrapper.
+- **Ko-fi:** username `benjamin_meyer` (https://ko-fi.com/benjamin_meyer), set in `_quarto.yml` footer and `_includes/kofi.html`.
 
 ### Open items
-1. User picks Brevo or Mailjet and supplies form URL; user supplies Ko-fi username.
-2. **Netlify:** `netlify.toml` still builds Hugo (`hugo --gc --minify`, publish `public`). Needs a Quarto build command, publish dir `_site`, removal of the Hugo cache plugin, and a branch deploy of `quarto-migration` for preview.
+1. Brevo form: set background to white/transparent and publish, then tune the iframe height.
+2. **Netlify:** `netlify.toml` on the branch is now Quarto. Still to do: commit, push `quarto-migration`, enable a branch deploy for that branch only, and verify the preview builds. Optionally add `noindex` to the preview.
 3. **Redirects:** add `_redirects` or Netlify config; Hugo URLs for publications and events are not fully covered by `aliases:`.
 4. **Cleanup and cutover:** remove Hugo files (`content/`, `config/`, `config.yaml`, `go.mod`, blogdown settings in `.Rprofile`, `exampleSite`, `.Rmd`/`.html` pairs), then merge to `master`. `.Rhistory` and `.gitignore` show as modified.
-5. **Content gaps:** finish the KDLL stub; add full author lists to publications (several show lead author plus "et al."); fill thin project and talk descriptions; port remaining Hugo content (`content/other/`, homepage widgets such as skills and experience, `content/drafts/`).
+5. **Content gaps:** port the old homepage skills and experience widgets into `index.qmd`; finish the KDLL stub; add full author lists to publications (several show lead author plus "et al."); fill thin project and talk descriptions; port remaining Hugo content (`content/other/`, homepage widgets such as skills and experience, `content/drafts/`).
 6. **Performance:** resize Skilak photos to about 1600 px wide; consider compressing publication PDFs.
 
 ### Working notes

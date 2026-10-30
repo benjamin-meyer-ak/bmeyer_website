@@ -46,7 +46,7 @@ website:
     left: "© 2026 Benjamin Meyer"
     right:
       - text: "Support on Ko-fi"
-        href: https://ko-fi.com/KOFI_USERNAME
+        href: https://ko-fi.com/benjamin_meyer
 
 format:
   html:
