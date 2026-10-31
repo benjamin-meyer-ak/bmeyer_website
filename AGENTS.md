@@ -4,7 +4,7 @@
 
 Personal academic/research website for Benjamin Meyer (salmon habitat research, thermal imagery, Kenai River watershed focus). Live at https://www.benjamin-meyer.net/, deployed on **Netlify**.
 
-**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (commits `870ef66` and `02774d0`; work since Oct 30, including the projects restructure and Hugo cleanup, is uncommitted; branch is local only, not pushed to `origin`). `master` and the live site are untouched until cutover.
+**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (latest commit `50dd92a` as of Oct 31, includes the projects restructure and Hugo cleanup). The branch was pushed to `origin/quarto-migration` with upstream tracking on Oct 31 (the first push timed out in a background shell; run it from the RStudio Terminal so credential prompts can appear), so RStudio's Push/Pull buttons now work. `master` and the live site are untouched until cutover.
 
 **Deployment safety:** production deploys from `master`, whose `netlify.toml` still builds Hugo. Never merge `quarto-migration` into `master` or make it Netlify's production branch until the Quarto site is ready for public viewing. If pushing the branch, enable Netlify branch deploys for `quarto-migration` only (not "All"); consider a `noindex` meta tag for the preview.
 
@@ -50,11 +50,17 @@ Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; outp
 
 ### Open items
 1. Brevo form: set background to white/transparent and publish, then tune the iframe height.
-2. **Netlify:** `netlify.toml` on the branch is now Quarto. Still to do: commit the uncommitted work, push `quarto-migration`, enable a branch deploy for that branch only, and verify the preview builds. Optionally add `noindex` to the preview.
+2. **Netlify:** `netlify.toml` on the branch is now Quarto. Still to do: check that Netlify branch deploys are not set to "All" (the branch is now on GitHub, so it may already be building), enable a branch deploy for `quarto-migration` only, and verify the preview builds. Optionally add `noindex` to the preview. Netlify is only an interim host (see Hosting plan).
 3. **Redirects:** add `_redirects` or Netlify config; Hugo URLs for publications and events are not fully covered by `aliases:`.
 4. **Cutover:** Hugo files are removed on the branch. Remaining: untrack `_site/` (tracked in git, shows as modified; add to `.gitignore`), decide on `LICENSE.md` (Wowchemy MIT license, kept for now), remove old Wowchemy notes from `To Do list`, then merge to `master` only when ready. The `.github/workflows/updater-wip.yml` Wowchemy updater was deleted on this branch.
 5. **Content gaps:** finish the KDLL stub; delete the placeholder blog posts; add full author lists to publications (several show lead author plus "et al."); fill thin project and talk descriptions; unported drafts and AWC docs remain in `_archive/`. An unexplained file `projects/projects_list` appeared (open in the editor); check whether it is needed.
 6. **Performance:** resize Skilak photos to about 1600 px wide; consider compressing publication PDFs.
+
+### Hosting plan (decided Oct 31, 2026)
+- Eventually cancel Netlify and publish the Quarto site directly from GitHub (repo `benjamin-meyer-ak/bmeyer_website`), preferably with a GitHub Actions workflow that runs `quarto render` and deploys `_site` to Pages (Pages source: "GitHub Actions"). Alternative: `quarto publish gh-pages`. Delete `netlify.toml` afterward.
+- Without a custom domain the URL would be https://benjamin-meyer-ak.github.io/bmeyer_website/ (subpath breaks root-relative links unless `site-url` matches); renaming the repo to `benjamin-meyer-ak.github.io` removes the subpath.
+- GitHub Pages has no `_redirects`; old Hugo URLs rely on `aliases:` (HTML meta-refresh), so cover publication and event URLs there. A custom domain needs DNS changes and a `CNAME` file in the output (add to `resources:`).
+- Considering a new custom domain that is not the user's name: (a) short and content-based (e.g. coldrefuge, redd.fish, thermalsalmon) or (b) short and absurd (e.g. spruce-tip, balloonguy, thermalgoose). Undecided; plan to keep `benjamin-meyer.net` redirecting or for email/CV so old links survive. Not yet checked for availability or renewal price.
 
 ### Working notes
 - Some files use Windows `\r\n` line endings, which can break `edit` string matches. Strip `\r` with `sed` first.

@@ -4,7 +4,7 @@ To do list
 Status: site will buld locally and pushes commit to github, but changes not deployed via netlify. look up where breakage occurs? (both changes of old posts and creation of new posts)
 
 12/11
-Updated hugo version reference in depoy files.
+Updated hugo version reference in deploy files.
 Status: site builds locally and has successful build on netlify, changes are reflected on github. BUT pushed chnages are not reflected on url page. unclear.
 local build version also does not reflect chnages to Rmd files!
 
