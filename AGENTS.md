@@ -4,9 +4,9 @@
 
 Personal academic/research website for Benjamin Meyer (salmon habitat research, thermal imagery, Kenai River watershed focus). Live at https://www.benjamin-meyer.net/, deployed on **Netlify**.
 
-**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (first commit `870ef66`; later work on Oct 30 is uncommitted; branch is local only, not pushed to `origin`). `master` and the live site are untouched until cutover.
+**Migration in progress (started Oct 22, 2026):** the live site is still Hugo + Wowchemy v5 on `master`. A Quarto rebuild lives on the branch `quarto-migration` (commits `870ef66` and `02774d0`; work since Oct 30, including the projects restructure and Hugo cleanup, is uncommitted; branch is local only, not pushed to `origin`). `master` and the live site are untouched until cutover.
 
-**Deployment safety:** production deploys from `master`, whose `netlify.toml` still builds Hugo. Never merge `quarto-migration` into `master` or make it Netlify's production branch until the Quarto site is ready for public viewing. If pushing the branch, enable Netlify branch deploys for `quarto-migration` only (not "All"); consider a `noindex` meta tag for the preview. `.github/workflows/updater-wip.yml` (Wowchemy updater) was not reviewed.
+**Deployment safety:** production deploys from `master`, whose `netlify.toml` still builds Hugo. Never merge `quarto-migration` into `master` or make it Netlify's production branch until the Quarto site is ready for public viewing. If pushing the branch, enable Netlify branch deploys for `quarto-migration` only (not "All"); consider a `noindex` meta tag for the preview.
 
 Style: avoid em dashes and AI writing tropes, use the base pipe `|>`, keep code comments minimal.
 
@@ -15,28 +15,28 @@ Style: avoid em dashes and AI writing tropes, use the base pipe `|>`, keep code 
 Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; output goes to `_site`.
 
 ### Structure
-- `_quarto.yml`: website type, cosmo theme, `site-url: https://www.benjamin-meyer.net`, `resources: uploads/**`. An explicit `render:` list (`index.qmd`, `projects.qmd`, `publications.qmd`, `talks.qmd`, `blog/index.qmd`, and `blog/posts`, `projects`, `talks`, `publications` subfolders) means the old Hugo `content/` tree is ignored.
-- Navbar: Home, Blog, Projects, Talks, Publications, Resume/CV dropdown (Resume, `CV_Meyer_October_2025.pdf`, PhD Interest Letter), GitHub and LinkedIn icons.
+- `_quarto.yml`: website type, cosmo theme, `site-url: https://www.benjamin-meyer.net`, `resources: uploads/**`. An explicit `render:` list (`index.qmd`, `publications.qmd`, `talks.qmd`, `blog/index.qmd`, and `blog/posts`, `projects`, `talks`, `publications` subfolders) so only listed paths render.
+- Navbar: Home, Blog, Projects dropdown (Research, Other), Talks, Publications, Resume/CV dropdown (Resume, `CV_Meyer_October_2025.pdf`, PhD Interest Letter), GitHub and LinkedIn icons.
 - Footer: "© 2026 Benjamin Meyer" plus a "Support on Ko-fi" link.
 - `static/uploads/` was moved to `uploads/` (git mv) so URLs stay `/uploads/...`. Avatar is at `images/avatar.jpg`.
-- `index.qmd`: jolla about-template (bio, education, social links).
-- `projects.qmd`, `talks.qmd`, `publications.qmd`: listing pages reading from same-named folders, sorted by date descending.
+- `index.qmd`: jolla about-template (bio and social links only). Skills/experience were tried and removed (covered by the Resume/CV); the Education list was dropped too and survives in `_archive/hugo-content/authors/admin/_index.md`.
+- `talks.qmd`, `publications.qmd`, `blog/index.qmd`, `projects/research/index.qmd`, `projects/other/index.qmd`: listing pages, sorted by date descending. Old `projects.qmd` was removed.
 - `_includes/subscribe.html`: Brevo iframe embed, pulled into `blog/index.qmd` via an include inside a raw HTML block (the bare include gave an "unclosed div" warning). An inline script in `blog/index.qmd` moves `.subscribe-box` to the end of `#quarto-margin-sidebar` on load so it sits below the categories list (a `.column-margin` wrapper put it above the categories). `page-layout: full` was removed from the blog index because it removes the margin column.
 - `_includes/kofi.html`: Ko-fi button, currently unused.
 - `netlify.toml` (on this branch only): downloads Quarto 1.6.40 from GitHub in the build command, runs `quarto render`, publishes `_site`. No Hugo pins or cache plugin. Not yet tested on Netlify; if the build fails, check the `$HOME/quarto-1.6.40/bin/quarto` path. No qmd pages contain R/Python chunks, so R is not needed on Netlify.
 
 ### Where to edit (Quarto)
-- Landing page and education list: `index.qmd` (Education section at the bottom; links in the YAML header).
+- Landing page: `index.qmd` (bio below the YAML header; social links in the header).
 - Navbar, footer, theme: `_quarto.yml`.
-- Posts, projects, talks, publications: `<section>/<name>/index.qmd`. Listing pages (`blog/index.qmd`, `projects.qmd`, `talks.qmd`, `publications.qmd`) only set layout.
+- Posts, projects, talks, publications: `<section>/<name>/index.qmd`. Listing pages (`blog/index.qmd`, `talks.qmd`, `publications.qmd`) only set layout.
 - Uploads (PDFs etc.): `uploads/`.
-- Hugo leftovers (`content/`, `config/`, `config.yaml`, `layouts/`, `static/`, `public/`, `exampleSite/`, `go.mod`) are ignored by the Quarto build; do not edit.
-- Preview: `quarto preview --port 4848` (run in an RStudio terminal), http://localhost:4848/.
+- Hugo/Wowchemy files were removed from this branch on Oct 31, 2026 (still on `master` and in git history). Unported material (homepage skills/experience widgets, drafts, AWC draft docs, draft post text files, brand logos) is in `_archive/`, which is not rendered.
+- Preview: `quarto preview` in an RStudio terminal (ports used: 4848, 4666). The server does not notice folders moved with `git mv`; restart it after moving or renaming content, otherwise listings and `listings.json` stay stale.
 
 ### Content ported
-- **Blog (`blog/posts/`):** `as-local-streams-warm` (KDLL radio, a stub that needs finishing), `a-visit-to-skilak-glacier` (uses `references.bib`, about 24 MB of photos), `stream-by-stream-volunteers-map`, `scientific-collaboration`. Each has an `aliases:` entry for its old `/post/...` URL. Wowchemy example posts were skipped.
+- **Blog (`blog/posts/`):** only `a-visit-to-skilak-glacier` is a real post (uses `references.bib`, about 24 MB of photos). Four other former posts were converted to research projects (below). Each ported item has an `aliases:` entry for its old URL. Wowchemy example posts were skipped.
 - **Placeholders to delete once real posts exist:** `welcome` (draft: true) and `example-post-one/two/three` (lorem ipsum, category `example`).
-- **Projects:** `chena-juv-salmon-wildfire` (alias guessed, verify against live site), `kwf-news`, `climate-change-and-juvenile-salmon`. Aliases point to old `/project/...` URLs.
+- **Projects:** `projects/research/` holds `chena-juv-salmon-wildfire` (alias guessed, verify), `kwf-news`, `climate-change-and-juvenile-salmon`, `as-local-streams-warm` (KDLL radio, a stub that needs finishing), `stream-by-stream-volunteers-map`, `scientific-collaboration`. Moving a folder one level deeper breaks relative links (fixed one to the thesis publication). `projects/other/` holds the ported Hugo `other` posts (balloon guy, wild salmon twitter bot, cabbage limerick contest, spruce tip). Aliases point to old URLs.
 - **Talks:** `krga-salmon-lifecycle`, `hows-the-water`, `unmapped-salmon-habitat`.
 - **Publications:** 10 pages generated by an R script from Hugo metadata, with local PDFs where available (about 46 MB). Eight old records had lorem ipsum abstracts, which were omitted; only the 2023 Kenai paper and the 2009 polar bear mercury paper have real abstracts.
   - Schoen 2017: DOI 10.1080/03632415.2017.1374251, Taylor & Francis link.
@@ -50,10 +50,10 @@ Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; outp
 
 ### Open items
 1. Brevo form: set background to white/transparent and publish, then tune the iframe height.
-2. **Netlify:** `netlify.toml` on the branch is now Quarto. Still to do: commit, push `quarto-migration`, enable a branch deploy for that branch only, and verify the preview builds. Optionally add `noindex` to the preview.
+2. **Netlify:** `netlify.toml` on the branch is now Quarto. Still to do: commit the uncommitted work, push `quarto-migration`, enable a branch deploy for that branch only, and verify the preview builds. Optionally add `noindex` to the preview.
 3. **Redirects:** add `_redirects` or Netlify config; Hugo URLs for publications and events are not fully covered by `aliases:`.
-4. **Cleanup and cutover:** remove Hugo files (`content/`, `config/`, `config.yaml`, `go.mod`, blogdown settings in `.Rprofile`, `exampleSite`, `.Rmd`/`.html` pairs), then merge to `master`. `.Rhistory` and `.gitignore` show as modified.
-5. **Content gaps:** port the old homepage skills and experience widgets into `index.qmd`; finish the KDLL stub; add full author lists to publications (several show lead author plus "et al."); fill thin project and talk descriptions; port remaining Hugo content (`content/other/`, homepage widgets such as skills and experience, `content/drafts/`).
+4. **Cutover:** Hugo files are removed on the branch. Remaining: untrack `_site/` (tracked in git, shows as modified; add to `.gitignore`), decide on `LICENSE.md` (Wowchemy MIT license, kept for now), remove old Wowchemy notes from `To Do list`, then merge to `master` only when ready. The `.github/workflows/updater-wip.yml` Wowchemy updater was deleted on this branch.
+5. **Content gaps:** finish the KDLL stub; delete the placeholder blog posts; add full author lists to publications (several show lead author plus "et al."); fill thin project and talk descriptions; unported drafts and AWC docs remain in `_archive/`. An unexplained file `projects/projects_list` appeared (open in the editor); check whether it is needed.
 6. **Performance:** resize Skilak photos to about 1600 px wide; consider compressing publication PDFs.
 
 ### Working notes
@@ -67,7 +67,7 @@ Renders cleanly with `quarto render` (Quarto 1.6.40) from the project root; outp
 - **Workflow:** create `.Rmd` content, blogdown renders to `.html` on save, commit both, push to `master`, Netlify deploys. Hugo ignores `.Rmd` via `config.yaml` (intentional).
 - **Local preview:** `options(blogdown.server.timeout = 120)` is required (Hugo module verification takes over 30 s), then `blogdown::serve_site()`. If `blogdown` is missing after an R upgrade, `install.packages("blogdown")`.
 - **Config:** `config.yaml` (baseurl `https://benjamin-meyer.net/`, copyright still says 2025), `config/_default/menus.yaml`, `config/_default/params.yaml`, `go.mod` (Wowchemy pinned to a commit hash).
-- **Content dirs:** `content/project/`, `content/post/`, `content/talk/`, `content/publication/`, `content/home/`, `static/`. 12 `.Rmd` files, each with an `.html` sibling.
+- **Content dirs (on `master` only):** `content/project/`, `content/post/`, `content/talk/`, `content/publication/`, `content/home/`, `static/`. 12 `.Rmd` files, each with an `.html` sibling.
 
 ## Planned Content (from To Do list)
 

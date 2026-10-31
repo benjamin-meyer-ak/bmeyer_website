@@ -6,7 +6,6 @@ project:
     - uploads/**
   render:
     - index.qmd
-    - projects.qmd
     - publications.qmd
     - talks.qmd
     - blog/index.qmd
@@ -25,7 +24,11 @@ website:
       - text: Blog
         href: blog/index.qmd
       - text: Projects
-        href: projects.qmd
+        menu:
+          - text: Research
+            href: projects/research/index.qmd
+          - text: Other
+            href: projects/other/index.qmd
       - text: Talks
         href: talks.qmd
       - text: Publications

@@ -2,13 +2,11 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/welcome/index.html",
       "/blog/posts/example-post-one/index.html",
       "/blog/posts/example-post-two/index.html",
       "/blog/posts/example-post-three/index.html",
-      "/blog/posts/stream-by-stream-volunteers-map/index.html",
-      "/blog/posts/a-visit-to-skilak-glacier/index.html",
-      "/blog/posts/as-local-streams-warm/index.html",
-      "/blog/posts/scientific-collaboration/index.html"
+      "/blog/posts/a-visit-to-skilak-glacier/index.html"
     ]
   },
   {
@@ -30,8 +28,10 @@
     "listing": "/projects.html",
     "items": [
       "/projects/climate-change-and-juvenile-salmon/index.html",
+      "/projects/stream-by-stream-volunteers-map/index.html",
       "/projects/kwf-news/index.html",
-      "/projects/chena-juv-salmon-wildfire/index.html"
+      "/projects/chena-juv-salmon-wildfire/index.html",
+      "/projects/as-local-streams-warm/index.html"
     ]
   },
   {
@@ -40,6 +40,26 @@
       "/talks/unmapped-salmon-habitat/index.html",
       "/talks/krga-salmon-lifecycle/index.html",
       "/talks/hows-the-water/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/research/index.html",
+    "items": [
+      "/projects/research/climate-change-and-juvenile-salmon/index.html",
+      "/projects/research/stream-by-stream-volunteers-map/index.html",
+      "/projects/research/kwf-news/index.html",
+      "/projects/research/chena-juv-salmon-wildfire/index.html",
+      "/projects/research/as-local-streams-warm/index.html",
+      "/projects/research/scientific-collaboration/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/other/index.html",
+    "items": [
+      "/projects/other/giant-cabbage-limerick-contest/index.html",
+      "/projects/other/the-spruce-tip/index.html",
+      "/projects/other/wild-salmon-twitter-bot/index.html",
+      "/projects/other/business-is-blowing-up-for-uaf-s-balloon-guy/index.html"
     ]
   }
 ]

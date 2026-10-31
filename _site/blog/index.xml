@@ -10,7 +10,15 @@
 <atom:link href="https://www.benjamin-meyer.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Tue, 20 Oct 2026 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <link>https://www.benjamin-meyer.net/blog/posts/welcome/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>meta</category>
+  <guid>https://www.benjamin-meyer.net/blog/posts/welcome/</guid>
+  <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Example Post One: Lorem Ipsum</title>
   <dc:creator>Benjamin Meyer</dc:creator>
@@ -82,29 +90,6 @@
   <pubDate>Sat, 10 Oct 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Stream by stream, volunteers map the Kenai Peninsula’s anadromous waters</title>
-  <dc:creator>Benjamin Meyer</dc:creator>
-  <link>https://www.benjamin-meyer.net/blog/posts/stream-by-stream-volunteers-map/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://www.kdll.org/local-news/2022-09-02/stream-by-stream-volunteers-map-the-kenai-peninsulas-anadromous-waters"><strong><em>From KDLL Public Radio: Stream by stream, volunteers map the Kenai Peninsula’s anadromous waters</em></strong></a></p>
-<p>Click the link above for yet another great story from KDLL public radio’s Sabine Poux about a neat project I’ve been involved with. Over half Alaska’s salmon streams have yet to be mapped, and it takes a lot of work to get them catalogued. The Kenai Peninsula Chapter of Trout Unlimited sponsored a project to help in this task using their own volunteer chapter members, and I had the privilege of helping along the way.</p>
-<p>For more detail about this project and the future of anadromous waters mapping generally, <a href="https://bookdown.org/kwfwqx/tu_awc_expansion/">read the technical report here</a>.</p>
-
-
-
- ]]></description>
-  <category>Salmon Habitat</category>
-  <category>Science Outreach</category>
-  <category>Kenai Watershed Forum</category>
-  <guid>https://www.benjamin-meyer.net/blog/posts/stream-by-stream-volunteers-map/</guid>
-  <pubDate>Sat, 12 Nov 2022 09:00:00 GMT</pubDate>
-  <media:content url="https://www.benjamin-meyer.net/blog/posts/stream-by-stream-volunteers-map/featured.JPEG" medium="image"/>
-</item>
-<item>
   <title>A visit to Skilak Glacier</title>
   <dc:creator>Benjamin Meyer</dc:creator>
   <link>https://www.benjamin-meyer.net/blog/posts/a-visit-to-skilak-glacier/</link>
@@ -152,52 +137,6 @@ Schoen, Erik R., Mark S. Wipfli, E. Jamie Trammell, Daniel J. Rinella, Angelica 
   <guid>https://www.benjamin-meyer.net/blog/posts/a-visit-to-skilak-glacier/</guid>
   <pubDate>Fri, 11 Nov 2022 09:00:00 GMT</pubDate>
   <media:content url="https://www.benjamin-meyer.net/blog/posts/a-visit-to-skilak-glacier/featured.JPG" medium="image"/>
-</item>
-<item>
-  <title>As local streams warm, cold water inputs could be crucial for salmon</title>
-  <dc:creator>Benjamin Meyer</dc:creator>
-  <link>https://www.benjamin-meyer.net/blog/posts/as-local-streams-warm/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>In August 2021 my collaborators and I were interviewed about a project…</p>
-<p><a href="https://www.kdll.org/post/local-streams-warm-cold-water-inputs-could-be-crucial-salmon#stream/0" class="uri">https://www.kdll.org/post/local-streams-warm-cold-water-inputs-could-be-crucial-salmon#stream/0</a></p>
-
-
-
- ]]></description>
-  <category>Salmon Habitat</category>
-  <category>Radio</category>
-  <guid>https://www.benjamin-meyer.net/blog/posts/as-local-streams-warm/</guid>
-  <pubDate>Wed, 25 Aug 2021 08:00:00 GMT</pubDate>
-  <media:content url="https://www.benjamin-meyer.net/blog/posts/as-local-streams-warm/featured.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Scientific collaboration connects humans, salmon on the Kenai</title>
-  <dc:creator>Benjamin Meyer</dc:creator>
-  <link>https://www.benjamin-meyer.net/blog/posts/scientific-collaboration/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><em>Photo credit: John Messick</em></p>
-<p><strong>Peninsula Clarion, May 15, 2016 - <a href="https://www.peninsulaclarion.com/news/scientific-collaboration-connects-humans-salmon-on-the-kenai/">Article Link</a></strong></p>
-<p>In spring 2016 I had the pleasure of hiking to Upper Russian Lake with two of my good friends to install water temperature loggers as part of my graduate research project. Our local paper the Peninsula Clarion published this nice account about the journey and the larger project.</p>
-<p>My two companions were the most helpful support one could have for hauling science gear out to a difficult and remote spot. <a href="https://uaf-iarc.org/?directory_entry=21399">Erik Schoen</a> is a research professor at University of Alaska Fairbanks, a member of my M.S. graduate committee, and all-around amazing person. <a href="https://johnlmessick.com/">John Messick</a> is a local professor of English at Kenai Peninsula College, a journalist, and my former saw-partner when we worked as wildland firefighters long ago.</p>
-<p>It was a special couple of days. I’m grateful to have had such amazing company and that this article captured a snapshot of it.</p>
-
-
-
- ]]></description>
-  <category>Salmon Habitat</category>
-  <category>Academic</category>
-  <category>Kenai</category>
-  <guid>https://www.benjamin-meyer.net/blog/posts/scientific-collaboration/</guid>
-  <pubDate>Sat, 14 May 2016 08:00:00 GMT</pubDate>
-  <media:content url="https://www.benjamin-meyer.net/blog/posts/scientific-collaboration/featured.JPG" medium="image"/>
 </item>
 </channel>
 </rss>

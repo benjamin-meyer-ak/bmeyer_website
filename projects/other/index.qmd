@@ -1,0 +1,9 @@
+---
+title: "Other Projects"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
